@@ -80,7 +80,7 @@ public class ItemManager {
                 AttributeModifier.Operation.ADD_NUMBER,
                 EquipmentSlotGroup.MAINHAND
         );
-        meta.addAttributeModifier(Attribute.GENERIC_ATTACK_DAMAGE, damageModifier);
+        meta.addAttributeModifier(Attribute.ATTACK_DAMAGE, damageModifier);
 
         // ---- Ukrycie WSZYSTKICH zbędnych informacji (enchanty, atrybuty, unbreakable itd.) ----
         meta.addItemFlags(ItemFlag.values());
