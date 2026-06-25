@@ -1,0 +1,11 @@
+# ============================================================
+#   Totem Ulaskawienia - konfiguracja
+# ============================================================
+
+# CustomModelData uzywane przez przedmiot.
+# Dzieki temu mozesz podpiac wlasny model/teksture w resource packu.
+# Aby uzyc innego modelu - wystarczy zmienic ta liczbe.
+custom-model-data: 100100
+
+# Czy przedmiot ma swiecic jak zaklety (efekt poswiaty).
+glow: true
